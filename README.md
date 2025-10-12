@@ -41,7 +41,7 @@ To clone and run this project locally, follow these steps:
     # For Windows
     python -m venv venv
     venv\Scripts\activate
-    ```
+   ```
 
 4. **Install the required packages:**
     ```sh
