@@ -9,6 +9,10 @@ import matplotlib.pyplot as plt
 input_values = [1, 2, 3, 4, 5]
 squares = [1, 4, 9, 16, 25]
 
+# Using built-in styles
+plt.style.use('seaborn-v0_8')
+
+
 # subplot can generate one or more plots in the same figure (fig).
 # Plot the data.
 fig, ax = plt.subplots()
