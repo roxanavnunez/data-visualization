@@ -11,7 +11,7 @@ This project explores the creation of various plots and charts using Python's Ma
 * **Simple Line Plots:** Generating and customizing basic line graphs.
 * **Scatter Plots:** Creating scatter plots and styling them.
 * **Random Walks:** Visualizing random walks with different styling options.
-* **(Add more as you complete the exercises)**
+
 
 ## 🚀 Getting Started
 
@@ -20,17 +20,30 @@ This project explores the creation of various plots and charts using Python's Ma
 * Python 3.x
 * Matplotlib
 
-### Installation
+### Setup and Installation
 
-1.  Clone the repository:
+To clone and run this project locally, follow these steps:
+
+1.  **Clone the repository:**
     ```sh
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git)
+    git clone [https://github.com/roxanavnunez/data-visualization]
     ```
-2.  Navigate to the project directory:
+2.  **Navigate to the project directory:**
     ```sh
     cd YOUR_REPOSITORY
     ```
-3.  Install the required packages:
+3.   **(Recommended) Create and activate a virtual environment:**
+    ```sh
+    # For macOS/Linux
+    python3 -m venv venv
+    source venv/bin/activate
+
+    # For Windows
+    python -m venv venv
+    venv\Scripts\activate
+    ```
+
+Install the required packages:
     ```sh
     pip install matplotlib
     ```
