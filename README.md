@@ -33,7 +33,7 @@ To clone and run this project locally, follow these steps:
     cd data_visualization
     ```
 3.   **(Recommended) Create and activate a virtual environment:**
-    ```sh
+   ```sh
     # For macOS/Linux
     python3 -m venv venv
     source venv/bin/activate
