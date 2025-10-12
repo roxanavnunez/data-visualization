@@ -1,12 +1,15 @@
 """
-Plotting and Styling individual points with scatter()
+Plotting a series of points
 """
-
 import matplotlib.pyplot as plt
+
+# Series of points
+x_values = [1, 2, 3, 4, 5]
+y_values = [1, 4, 9, 16, 25]
 
 plt.style.use("seaborn-v0_8")
 fig, ax = plt.subplots()
-ax.scatter(2, 4, s=200)
+ax.scatter(x_values, y_values, s=100)
 
 # Set chart title and label axes.
 ax.set_title("Square Numbers", fontsize=24)
