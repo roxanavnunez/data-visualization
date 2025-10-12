@@ -30,7 +30,7 @@ To clone and run this project locally, follow these steps:
     ```
 2.  **Navigate to the project directory:**
     ```sh
-    cd YOUR_REPOSITORY
+    cd data_visualization
     ```
 3.   **(Recommended) Create and activate a virtual environment:**
     ```sh
@@ -43,7 +43,7 @@ To clone and run this project locally, follow these steps:
     venv\Scripts\activate
     ```
 
-Install the required packages:
+4. **Install the required packages:**
     ```sh
     pip install matplotlib
     ```
