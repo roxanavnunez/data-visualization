@@ -6,12 +6,13 @@ Customize it to create more informative data visualization
 import matplotlib.pyplot as plt
 
 # Data to plot. 
+input_values = [1, 2, 3, 4, 5]
 squares = [1, 4, 9, 16, 25]
 
 # subplot can generate one or more plots in the same figure (fig).
 # Plot the data.
 fig, ax = plt.subplots()
-ax.plot(squares, linewidth=3)
+ax.plot(input_values, squares, linewidth=3)
 
 # Set chart title and label axes.
 ax.set_title("Square Numbers", fontsize=24)
