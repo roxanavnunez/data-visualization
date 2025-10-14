@@ -11,7 +11,9 @@ while True:
 
     # Plot the points in the walk
     plt.style.use('classic')
-    fig, ax = plt.subplots()
+
+    # Altering the size to fill the screen
+    fig, ax = plt.subplots(figsize=(10,6))
 
     # Color the points
     point_numbers = range(rw.num_points)
