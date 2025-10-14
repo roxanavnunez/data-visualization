@@ -26,8 +26,6 @@ wheels/
 MANIFEST
 
 # PyInstaller
-# Usually these files are written by a script, but they may be committed by
-# accident.
 *.manifest
 *.spec
 
@@ -79,3 +77,6 @@ venv.bak/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Visualization output files
+*.html
