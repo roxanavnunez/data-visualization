@@ -1,3 +1,5 @@
+"""Chapter 15 Exercise 3"""
+
 import matplotlib.pyplot as plt
 
 from random_walk import RandomWalk

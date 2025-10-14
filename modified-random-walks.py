@@ -1,3 +1,4 @@
+"""Chapter 15 Exercise 4"""
 import matplotlib.pyplot as plt
 
 from random import choice
