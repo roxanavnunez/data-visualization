@@ -67,6 +67,7 @@ venv.bak/
 # Data files
 *.csv
 *.json
+*.geojson
 *.xml
 
 # OS generated files
