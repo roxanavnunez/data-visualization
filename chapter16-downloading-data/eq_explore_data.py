@@ -16,4 +16,10 @@ path.write_text(readable_contents)
 
 # Examine all earthquakes in the dataset
 all_eq_dicts = all_eq_data['features']
-print(len(all_eq_dicts))
+
+mags = []
+for eq_dict in all_eq_dicts:
+    mag = eq_dict['properties']['mag']
+    mags.append(mag)
+
+print(mags[:10])
