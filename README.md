@@ -68,3 +68,7 @@ You can run any of them to see the output plot:
 
 ```sh
 python name_of_the_script.py
+```
+    
+## License 
+Distributed under the MIT License. See `LICENSE` for more information.
