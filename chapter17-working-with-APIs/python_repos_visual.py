@@ -30,11 +30,16 @@ try:
             stars.append(repo_dict['stargazers_count'])
     
     # Make visualization
-    fig = px.bar(x=repo_names, y=stars)
+    title = "Most-Starred Python Projects on GitHub"
+    labels = {'x': 'Repository', 'y': 'Stars'}
+    fig = px.bar(x=repo_names, y=stars, title=title, labels=labels)
+
+    fig.update_layout(title_font_size=28, xaxis_title_font_size=20,
+                      yaxis_title_font_size=20)
     fig.show()
 
 except Exception as e:
-    print(f"Error inesperado: {e}")
+    print(f"Unexpected Error: {e}")
 
 # Delay to avoid saturating the API
 time.sleep(2)
